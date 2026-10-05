@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bencho Frontend"
+  short_description: "设计、实现与评审 Bencho 风格的前端微交互、动效和可访问组件"
+  default_prompt: "使用 $bencho-frontend，为当前前端加入合适的细腻微交互，并验证键盘、触屏和减少动效路径。"

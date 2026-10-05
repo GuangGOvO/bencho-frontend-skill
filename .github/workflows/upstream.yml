@@ -1,0 +1,39 @@
+name: Check Bencho upstream
+on:
+  schedule:
+    - cron: '17 2 * * *' # 10:17 Asia/Shanghai; GitHub scheduling is best effort
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: bencho-upstream
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+      - name: Capture public metadata and compare
+        id: upstream
+        run: node scripts/upstream.mjs
+      - name: Notify once for a new fingerprint
+        if: steps.upstream.outputs.changed == 'true'
+        run: node scripts/notify-upstream.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Preserve candidate snapshot
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: bencho-upstream-report
+          path: |
+            work/upstream-current.json
+            work/upstream-diff.json
+            work/upstream-report.md
+          if-no-files-found: ignore
+          retention-days: 30

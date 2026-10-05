@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-10-05T14:07:52.572Z",
+  "source": "https://bencho.dev/",
+  "assets": {
+    "script": {
+      "url": "https://bencho.dev/assets/index-BfIRTxkq.js",
+      "sha256": "5b05d94d82e8aedf6cf82a2c85f833fb6d848dcb9d7c87fcde80efa1f788b9ef"
+    },
+    "stylesheet": {
+      "url": "https://bencho.dev/assets/index-C2Q6UHIR.css",
+      "sha256": "6a4539005885daf56ec3b4bb45a61250ddd0710017aa068ff3dffa60bd851333"
+    },
+    "licencePage": {
+      "url": "https://bencho.dev/licence",
+      "sha256": "3d96110cb8db277c112876f8d57818624ea301a136dd453d0377ab9c873d34e9"
+    }
+  },
+  "catalog": [
+    {
+      "id": "action-node",
+      "name": "Action node",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/action-node"
+    },
+    {
+      "id": "aspect",
+      "name": "Aspect ratio",
+      "category": "Select",
+      "url": "https://bencho.dev/blocks/aspect"
+    },
+    {
+      "id": "asset-swap",
+      "name": "Asset swap",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/asset-swap"
+    },
+    {
+      "id": "carousel",
+      "name": "Carousel",
+      "category": "Swipe",
+      "url": "https://bencho.dev/blocks/carousel"
+    },
+    {
+      "id": "checklist",
+      "name": "Checklist",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/checklist"
+    },
+    {
+      "id": "command",
+      "name": "Command bar",
+      "category": "Type",
+      "url": "https://bencho.dev/blocks/command"
+    },
+    {
+      "id": "confirm",
+      "name": "Inline confirm",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/confirm"
+    },
+    {
+      "id": "dock",
+      "name": "Magnifying dock",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/dock"
+    },
+    {
+      "id": "drag-ball",
+      "name": "Dragging ball",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/drag-ball"
+    },
+    {
+      "id": "dynamic-island",
+      "name": "Dynamic island",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/dynamic-island"
+    },
+    {
+      "id": "escape",
+      "name": "Escape button",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/escape"
+    },
+    {
+      "id": "eye-tracker",
+      "name": "Eye tracker",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/eye-tracker"
+    },
+    {
+      "id": "generate",
+      "name": "Generate",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/generate"
+    },
+    {
+      "id": "glass-bubble",
+      "name": "Glass bubble",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/glass-bubble"
+    },
+    {
+      "id": "heat-word",
+      "name": "Heat map",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/heat-word"
+    },
+    {
+      "id": "humidity",
+      "name": "Wheel",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/humidity"
+    },
+    {
+      "id": "icon-bar",
+      "name": "Icon bar",
+      "category": "Select",
+      "url": "https://bencho.dev/blocks/icon-bar"
+    },
+    {
+      "id": "image-accordion",
+      "name": "Image accordion",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/image-accordion"
+    },
+    {
+      "id": "image-compare",
+      "name": "Image compare",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/image-compare"
+    },
+    {
+      "id": "label-input",
+      "name": "Label input",
+      "category": "Type",
+      "url": "https://bencho.dev/blocks/label-input"
+    },
+    {
+      "id": "like",
+      "name": "Like",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/like"
+    },
+    {
+      "id": "liq-arrange",
+      "name": "Reorder list",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/liq-arrange"
+    },
+    {
+      "id": "liq-create",
+      "name": "Create menu",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/liq-create"
+    },
+    {
+      "id": "liq-toggle",
+      "name": "Liquid toggle",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/liq-toggle"
+    },
+    {
+      "id": "magnet-select",
+      "name": "Magnetic select",
+      "category": "Select",
+      "url": "https://bencho.dev/blocks/magnet-select"
+    },
+    {
+      "id": "one-time-code",
+      "name": "One-time code",
+      "category": "Type",
+      "url": "https://bencho.dev/blocks/one-time-code"
+    },
+    {
+      "id": "palette",
+      "name": "Palette",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/palette"
+    },
+    {
+      "id": "particles",
+      "name": "Particles",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/particles"
+    },
+    {
+      "id": "picker",
+      "name": "Assignees",
+      "category": "Select",
+      "url": "https://bencho.dev/blocks/picker"
+    },
+    {
+      "id": "progress",
+      "name": "Progress ticks",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/progress"
+    },
+    {
+      "id": "pull",
+      "name": "Pull to refresh",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/pull"
+    },
+    {
+      "id": "radial",
+      "name": "Radial menu",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/radial"
+    },
+    {
+      "id": "roster",
+      "name": "Selection list",
+      "category": "Select",
+      "url": "https://bencho.dev/blocks/roster"
+    },
+    {
+      "id": "seek",
+      "name": "Search",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/seek"
+    },
+    {
+      "id": "signature",
+      "name": "Signature pad",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/signature"
+    },
+    {
+      "id": "sleep",
+      "name": "Range dial",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/sleep"
+    },
+    {
+      "id": "slide-confirm",
+      "name": "Slide to confirm",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/slide-confirm"
+    },
+    {
+      "id": "slosh",
+      "name": "Slosh slider",
+      "category": "Slide",
+      "url": "https://bencho.dev/blocks/slosh"
+    },
+    {
+      "id": "sound",
+      "name": "Now playing",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/sound"
+    },
+    {
+      "id": "step-player",
+      "name": "Step player",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/step-player"
+    },
+    {
+      "id": "stepper",
+      "name": "Drag stepper",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/stepper"
+    },
+    {
+      "id": "tilt",
+      "name": "Tilt card",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/tilt"
+    },
+    {
+      "id": "time-scrubber",
+      "name": "Time scrubber",
+      "category": "Slide",
+      "url": "https://bencho.dev/blocks/time-scrubber"
+    },
+    {
+      "id": "toasts",
+      "name": "Notify",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/toasts"
+    },
+    {
+      "id": "todo-tower",
+      "name": "Todo tower",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/todo-tower"
+    },
+    {
+      "id": "toolbar",
+      "name": "Canvas toolbar",
+      "category": "Select",
+      "url": "https://bencho.dev/blocks/toolbar"
+    },
+    {
+      "id": "upload-dropzone",
+      "name": "Upload dropzone",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/upload-dropzone"
+    },
+    {
+      "id": "voice-note",
+      "name": "Voice note",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/voice-note"
+    }
+  ]
+}
