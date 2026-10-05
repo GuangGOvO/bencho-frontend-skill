@@ -17,10 +17,12 @@ def build():
     output = ROOT / 'dist'
     output.mkdir(exist_ok=True)
     archive = output / f'bencho-frontend-{version}.zip'
-    with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED) as bundle:
+    # Stored entries avoid zlib-version variation; the payload is only ~32 KB.
+    with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_STORED) as bundle:
         for name, data in sorted(contents.items()):
             item = zipfile.ZipInfo('bencho-frontend/' + name, (2026, 1, 1, 0, 0, 0))
-            item.compress_type = zipfile.ZIP_DEFLATED
+            item.create_system = 3
+            item.compress_type = zipfile.ZIP_STORED
             item.external_attr = 0o100644 << 16
             bundle.writestr(item, data)
     digest = hashlib.sha256(archive.read_bytes()).hexdigest()
