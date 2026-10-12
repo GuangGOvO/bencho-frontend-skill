@@ -2,7 +2,7 @@
 name: bencho-frontend
 description: 为 React 或其他 Web 前端设计、实现和评审 Bencho 风格的微交互，包括弹性反馈、形态连续转换、拖动控件、输入状态和选择器。用户提到 bencho.dev、Bencho、细腻交互或要求加入这类组件时使用；单纯后端任务不触发。
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # Bencho Frontend
@@ -13,6 +13,7 @@ metadata:
 
 - **设计或实现组件**：读 [交互模式](references/patterns.md)，选择最贴合实际任务的模式。需要来源实例时查 [组件索引](references/catalog.md)。
 - **分析视觉或复现气质**：读 [网页分析](references/site-analysis.zh-CN.md)。其中区分实测参数与本包建议，不把某个屏宽的尺寸当作通用设计规范。
+- **需要额外的视觉灵感**：读 [Finds 来源说明](references/finds.md)。Finds 是第三方作品参考，不等于可复制的 Blocks 组件；按原作品来源核对复用范围。
 - **实现复杂动效、拖动或评审现有组件**：读 [动效与可访问性](references/motion-and-accessibility.md)。
 - **更新本 Skill 或核对上游**：读 [维护流程](references/maintenance.md)。普通前端任务无需联网检查版本。
 

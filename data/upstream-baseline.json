@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-10-05T14:07:52.572Z",
+  "capturedAt": "2026-10-12T03:10:18.006Z",
   "source": "https://bencho.dev/",
   "assets": {
     "script": {
-      "url": "https://bencho.dev/assets/index-BfIRTxkq.js",
-      "sha256": "5b05d94d82e8aedf6cf82a2c85f833fb6d848dcb9d7c87fcde80efa1f788b9ef"
+      "url": "https://bencho.dev/assets/index-DROD9WtH.js",
+      "sha256": "9864077ffbcbc1bb567b2557a4f25962815e058ab0f0ea4faca91e8ad95f3d62"
     },
     "stylesheet": {
       "url": "https://bencho.dev/assets/index-C2Q6UHIR.css",
@@ -13,7 +13,7 @@
     },
     "licencePage": {
       "url": "https://bencho.dev/licence",
-      "sha256": "3d96110cb8db277c112876f8d57818624ea301a136dd453d0377ab9c873d34e9"
+      "sha256": "ac9c9ce91caa4b1b10fc1acce120af9d2b86c9857028c6ec91a962bb92d08fcf"
     }
   },
   "catalog": [
