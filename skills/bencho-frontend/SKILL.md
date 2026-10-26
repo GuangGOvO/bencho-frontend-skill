@@ -2,7 +2,7 @@
 name: bencho-frontend
 description: 为 React 或其他 Web 前端设计、实现和评审 Bencho 风格的微交互，包括弹性反馈、形态连续转换、拖动控件、输入状态和选择器。用户提到 bencho.dev、Bencho、细腻交互或要求加入这类组件时使用；单纯后端任务不触发。
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # Bencho Frontend

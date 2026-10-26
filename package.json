@@ -1,6 +1,6 @@
 {
   "name": "bencho-frontend-skill",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,7 +11,17 @@
     "upstream": "node scripts/upstream.mjs",
     "pack:skill": "python scripts/package.py"
   },
-  "dependencies": { "react": "19.3.0", "react-dom": "19.3.0" },
-  "devDependencies": { "@types/react": "19.3.0", "@types/react-dom": "19.3.0", "typescript": "7.0.2", "vite": "8.3.2" },
-  "engines": { "node": ">=24" }
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  },
+  "engines": {
+    "node": ">=24"
+  }
 }
