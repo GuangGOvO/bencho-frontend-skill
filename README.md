@@ -2,13 +2,13 @@
 
 基于 [bencho.dev](https://bencho.dev/) 的独立前端 Skill：把可观察的微交互思路变成可以在实际项目中执行的设计、实现与评审指导。主要语言为中文，适配 React，也能迁移到其他 Web 框架。
 
-**当前版本：0.1.1。网页分析基线：2026-10-05，48 个组件、7 类交互。** 目录数量由实际客户端与公开运行包交叉核对，不能解读为所有组件均完成了源码、设备和后端测试。
+**当前版本：0.1.3。公开目录基线：2026-11-02，153 个组件条目、9 类交互。** 条目名称与分类来自首页公开目录；不能解读为所有组件均完成了源码、设备和后端测试。
 
 ## 包内内容
 
 - [SKILL.md](skills/bencho-frontend/SKILL.md)：触发描述、实现约定、按需参考路由。
 - [网页分析](skills/bencho-frontend/references/site-analysis.zh-CN.md)：实际布局、字体/颜色/圆角、技术观察和验证限制。
-- [48 项索引](skills/bencho-frontend/references/catalog.md)、[模式选择](skills/bencho-frontend/references/patterns.md)、[动效与可访问性](skills/bencho-frontend/references/motion-and-accessibility.md)。
+- [153 项索引](skills/bencho-frontend/references/catalog.md)、[模式选择](skills/bencho-frontend/references/patterns.md)、[动效与可访问性](skills/bencho-frontend/references/motion-and-accessibility.md)。
 - [原创 React 示例](skills/bencho-frontend/assets/recipes/)：异步内联确认、原生图片比较、浮动标签；无需动效库。
 - 可运行的本地预览、更新检测器、安装器、冲突保护、CI、带 SHA256 的版本包。
 

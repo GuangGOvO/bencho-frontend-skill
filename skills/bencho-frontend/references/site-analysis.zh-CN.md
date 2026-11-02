@@ -6,6 +6,10 @@
 
 Bencho 是交互组件探索库。完整客户端首页有 **48 个组件**；检索 `confirm` 显示 `2 of 48`，与公开 JS 中解析出的目录一致。搜索抓取当时只有 40 项，因此目录以浏览器和运行包为准。首页按 Hover、Press、Drag、Slide、Swipe、Type、Select 七类筛选；导航还包含 Sounds、Finds、Bench。
 
+2026-10-26 再次读取公开首页 HTML，目录列出 **143 个组件**；2026-11-02 同样方式观察到 **153 个组件**。标签覆盖 Hover、Press、Drag、Slide、Swipe、Type、Select、Loading、Loop 九类。名称与分类是页面公开标签；此次没有逐项运行全部组件。目录以锚点链接提取，运行包仅用于变化摘要，不执行下载的 JavaScript。
+
+2026-11-02 新增的 10 个公开条目包括 AI autocomplete、Context meter、Falling text、Genie effect、Gravity tags、Magnetic letters、Odds、Orders globe、Private balance、Slingshot。逐页读取了公开标题与描述；页面分别提及建议文本接受、上下文分段提示、文字/标签物理散落、图像展开与收回、概率曲线 scrubbing、地球订单可视化、余额显隐和弹射反馈。这些是页面文案描述，不代表本次实机交互验证或业务功能验证。目录摘要显示主 JS、CSS 与许可页内容哈希变化；哈希变化本身不证明可见行为或许可条款发生变化。
+
 卡片让用户直接体验交互，附有演示、编辑、收藏入口。滑动确认面板可切换预览/代码，调节明暗、描边、速度、宽度、圆角，并生成分享链接。代码页签曾呈现空白；不能据此宣称完成了官方源码导出验证。首页存在自动演示，单次点击后的状态可能受演示影响。
 
 ## 实测视觉参数
