@@ -1,12 +1,13 @@
 # Bencho 组件索引
 
-来源：[bencho.dev](https://bencho.dev/)。快照：2026-10-26T03:06:23.885Z，共 143 项。分类来自公开目录；不是逐项人工测试声明。
+来源：[bencho.dev](https://bencho.dev/)。快照：2026-11-02T03:02:24.183Z，共 153 项。分类来自公开目录；不是逐项人工测试声明。
 
 | 组件 | 交互 | 原站 |
 | --- | --- | --- |
 | Access request | Press | [打开](https://bencho.dev/blocks/access-request) |
 | Action node | Hover | [打开](https://bencho.dev/blocks/action-node) |
 | Activity stack | Swipe | [打开](https://bencho.dev/blocks/activity-stack) |
+| AI autocomplete | Type | [打开](https://bencho.dev/blocks/ai-autocomplete) |
 | AI chat input | Type | [打开](https://bencho.dev/blocks/ai-chat-input) |
 | Album shelf | Hover | [打开](https://bencho.dev/blocks/album-shelf) |
 | ASCII wake | Hover | [打开](https://bencho.dev/blocks/ascii-wake) |
@@ -31,6 +32,7 @@
 | Confetti | Press | [打开](https://bencho.dev/blocks/confetti) |
 | Inline confirm | Press | [打开](https://bencho.dev/blocks/confirm) |
 | Integrations | Press | [打开](https://bencho.dev/blocks/connect-sources) |
+| Context meter | Hover | [打开](https://bencho.dev/blocks/context-meter) |
 | Copy field | Press | [打开](https://bencho.dev/blocks/copy-field) |
 | Country wheel | Drag | [打开](https://bencho.dev/blocks/country-wheel) |
 | Crumpled receipt | Drag | [打开](https://bencho.dev/blocks/crumple) |
@@ -45,6 +47,7 @@
 | Emoji reactions | Hover | [打开](https://bencho.dev/blocks/emoji-reactions) |
 | Escape button | Hover | [打开](https://bencho.dev/blocks/escape) |
 | Eye tracker | Hover | [打开](https://bencho.dev/blocks/eye-tracker) |
+| Falling text | Hover | [打开](https://bencho.dev/blocks/falling-text) |
 | FAQ accordion | Press | [打开](https://bencho.dev/blocks/faq-accordion) |
 | Feedback bar | Press | [打开](https://bencho.dev/blocks/feedback-bar) |
 | Flight island | Press | [打开](https://bencho.dev/blocks/flight-island) |
@@ -54,7 +57,9 @@
 | Folding bill | Drag | [打开](https://bencho.dev/blocks/folding-bill) |
 | Form error | Type | [打开](https://bencho.dev/blocks/form-error) |
 | Generate | Press | [打开](https://bencho.dev/blocks/generate) |
+| Genie effect | Press | [打开](https://bencho.dev/blocks/genie) |
 | Glass bubble | Drag | [打开](https://bencho.dev/blocks/glass-bubble) |
+| Gravity tags | Hover | [打开](https://bencho.dev/blocks/gravity-tags) |
 | Heart rate | Hover | [打开](https://bencho.dev/blocks/heart-rate) |
 | Heat map | Hover | [打开](https://bencho.dev/blocks/heat-word) |
 | Hub diagram | Hover | [打开](https://bencho.dev/blocks/hub-diagram) |
@@ -76,12 +81,15 @@
 | Loading state | Loading | [打开](https://bencho.dev/blocks/loading-state) |
 | Magnetic select | Select | [打开](https://bencho.dev/blocks/magnet-select) |
 | Magnetic dots | Hover | [打开](https://bencho.dev/blocks/magnetic-dots) |
+| Magnetic letters | Hover | [打开](https://bencho.dev/blocks/magnetic-letters) |
 | Metaballs | Hover | [打开](https://bencho.dev/blocks/metaballs) |
 | Morph loader | Loop | [打开](https://bencho.dev/blocks/morph-loader) |
 | Music island | Press | [打开](https://bencho.dev/blocks/music-island) |
+| Odds | Press | [打开](https://bencho.dev/blocks/odds) |
 | One-time code | Type | [打开](https://bencho.dev/blocks/one-time-code) |
 | Option wheel | Drag | [打开](https://bencho.dev/blocks/option-wheel) |
 | Orbit cards | Drag | [打开](https://bencho.dev/blocks/orbit-cards) |
+| Orders globe | Drag | [打开](https://bencho.dev/blocks/orders-globe) |
 | Page peel | Drag | [打开](https://bencho.dev/blocks/page-peel) |
 | Palette | Press | [打开](https://bencho.dev/blocks/palette) |
 | Particles | Hover | [打开](https://bencho.dev/blocks/particles) |
@@ -95,6 +103,7 @@
 | Pixel loader | Loop | [打开](https://bencho.dev/blocks/pixel-loader) |
 | Price chart | Drag | [打开](https://bencho.dev/blocks/price-chart) |
 | Price flow | Press | [打开](https://bencho.dev/blocks/price-flow) |
+| Private balance | Press | [打开](https://bencho.dev/blocks/private-balance) |
 | Profile hover card | Hover | [打开](https://bencho.dev/blocks/profile-card) |
 | Progress ticks | Hover | [打开](https://bencho.dev/blocks/progress) |
 | Progressive blur | Hover | [打开](https://bencho.dev/blocks/progressive-blur) |
@@ -115,6 +124,7 @@
 | Skeleton morph | Press | [打开](https://bencho.dev/blocks/skeleton-morph) |
 | Range dial | Drag | [打开](https://bencho.dev/blocks/sleep) |
 | Slide to confirm | Drag | [打开](https://bencho.dev/blocks/slide-confirm) |
+| Slingshot | Drag | [打开](https://bencho.dev/blocks/slingshot) |
 | Slosh slider | Slide | [打开](https://bencho.dev/blocks/slosh) |
 | Smudge | Hover | [打开](https://bencho.dev/blocks/smudge) |
 | Now playing | Press | [打开](https://bencho.dev/blocks/sound) |

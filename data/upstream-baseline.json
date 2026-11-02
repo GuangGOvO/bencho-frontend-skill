@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-10-26T03:06:23.885Z",
+  "capturedAt": "2026-11-02T03:02:24.183Z",
   "source": "https://bencho.dev/",
   "assets": {
     "script": {
-      "url": "https://bencho.dev/assets/index-CkugT2bK.js",
-      "sha256": "b160ab2b59c3d917965fbd66827d98629fb645c1fbc79e73b6635b209bc901df"
+      "url": "https://bencho.dev/assets/index-BCgeGA30.js",
+      "sha256": "4a5bfc31bbbfee3c2feb2b5b56694f8d2e969e78802489cbebc773ba3959d611"
     },
     "stylesheet": {
-      "url": "https://bencho.dev/assets/index-rgrJx2gL.css",
-      "sha256": "41153a3fc2793dc55341a8cf510317634ff3ae174038506ca3a438de1e07f7e3"
+      "url": "https://bencho.dev/assets/index-BAkKYq6q.css",
+      "sha256": "912e23707cf68575e8dcbf6e4c10b15b846ef93d50d7fb363e237d326aef4a0f"
     },
     "licencePage": {
       "url": "https://bencho.dev/licence",
-      "sha256": "6bde29b89673a229d65d95694f93970623f2b9b0324da3853e024cc513ecbb2d"
+      "sha256": "953c367f3d23e46dffe97ea006a7b6a3a668732471d4fd144b1124ef9405f26d"
     }
   },
   "catalog": [
@@ -34,6 +34,12 @@
       "name": "Activity stack",
       "category": "Swipe",
       "url": "https://bencho.dev/blocks/activity-stack"
+    },
+    {
+      "id": "ai-autocomplete",
+      "name": "AI autocomplete",
+      "category": "Type",
+      "url": "https://bencho.dev/blocks/ai-autocomplete"
     },
     {
       "id": "ai-chat-input",
@@ -180,6 +186,12 @@
       "url": "https://bencho.dev/blocks/connect-sources"
     },
     {
+      "id": "context-meter",
+      "name": "Context meter",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/context-meter"
+    },
+    {
       "id": "copy-field",
       "name": "Copy field",
       "category": "Press",
@@ -264,6 +276,12 @@
       "url": "https://bencho.dev/blocks/eye-tracker"
     },
     {
+      "id": "falling-text",
+      "name": "Falling text",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/falling-text"
+    },
+    {
       "id": "faq-accordion",
       "name": "FAQ accordion",
       "category": "Press",
@@ -318,10 +336,22 @@
       "url": "https://bencho.dev/blocks/generate"
     },
     {
+      "id": "genie",
+      "name": "Genie effect",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/genie"
+    },
+    {
       "id": "glass-bubble",
       "name": "Glass bubble",
       "category": "Drag",
       "url": "https://bencho.dev/blocks/glass-bubble"
+    },
+    {
+      "id": "gravity-tags",
+      "name": "Gravity tags",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/gravity-tags"
     },
     {
       "id": "heart-rate",
@@ -450,6 +480,12 @@
       "url": "https://bencho.dev/blocks/magnetic-dots"
     },
     {
+      "id": "magnetic-letters",
+      "name": "Magnetic letters",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/magnetic-letters"
+    },
+    {
       "id": "metaballs",
       "name": "Metaballs",
       "category": "Hover",
@@ -468,6 +504,12 @@
       "url": "https://bencho.dev/blocks/music-island"
     },
     {
+      "id": "odds",
+      "name": "Odds",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/odds"
+    },
+    {
       "id": "one-time-code",
       "name": "One-time code",
       "category": "Type",
@@ -484,6 +526,12 @@
       "name": "Orbit cards",
       "category": "Drag",
       "url": "https://bencho.dev/blocks/orbit-cards"
+    },
+    {
+      "id": "orders-globe",
+      "name": "Orders globe",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/orders-globe"
     },
     {
       "id": "page-peel",
@@ -562,6 +610,12 @@
       "name": "Price flow",
       "category": "Press",
       "url": "https://bencho.dev/blocks/price-flow"
+    },
+    {
+      "id": "private-balance",
+      "name": "Private balance",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/private-balance"
     },
     {
       "id": "profile-card",
@@ -682,6 +736,12 @@
       "name": "Slide to confirm",
       "category": "Drag",
       "url": "https://bencho.dev/blocks/slide-confirm"
+    },
+    {
+      "id": "slingshot",
+      "name": "Slingshot",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/slingshot"
     },
     {
       "id": "slosh",
