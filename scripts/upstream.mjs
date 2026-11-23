@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 export const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const ORIGIN = 'https://bencho.dev';
-const CATEGORIES = new Set(['Hover', 'Press', 'Drag', 'Slide', 'Swipe', 'Type', 'Select']);
+const CATEGORIES = new Set(['Hover', 'Press', 'Drag', 'Slide', 'Swipe', 'Type', 'Select', 'Loading', 'Loop']);
 export const sha256 = (text) => createHash('sha256').update(text).digest('hex');
 
 export function discoverAssets(html) {
@@ -23,22 +23,34 @@ export function discoverAssets(html) {
   return { script: runtime[0].href, stylesheet: css[0].href };
 }
 
-export function extractCatalog(bundle) {
-  // Read literal metadata only; never eval/import upstream code.
-  const heads = [...bundle.matchAll(/\{id:([`"'])([a-z][a-z0-9-]*)\1,seo:([`"'])([^`"']+)\3/g)];
-  if (heads.length === 0 || heads.length > 1000) throw new Error('Catalog adapter found no credible metadata table');
+export function extractCatalog(html) {
+  // Read the public directory labels and links; never eval/import upstream code.
   const seen = new Set();
-  return heads.map((head, index) => {
-    const section = bundle.slice(head.index, heads[index + 1]?.index ?? bundle.length)
-      .split(/\b(?:demo|css|params):/, 1)[0];
-    const field = key => new RegExp(`\\b${key}:([\x60"'])([^\x60"']+)\\1`).exec(section)?.[2];
-    const id = head[2], name = field('name'), category = field('cat'), kind = field('kind');
-    if (!name || name.length > 100 || /[<>{}@\r\n]/.test(name) || !CATEGORIES.has(category) || kind !== category || seen.has(id)) {
+  const catalog = [];
+  for (const anchor of html.matchAll(/<a\b[^>]*>/gi)) {
+    const href = /\bhref=["']([^"']+)["']/i.exec(anchor[0])?.[1];
+    if (!href) continue;
+    const url = new URL(href, ORIGIN);
+    const match = url.origin === ORIGIN && /^\/blocks\/([a-z][a-z0-9-]*)\/?$/.exec(url.pathname);
+    if (!match) continue;
+    const end = html.indexOf('</a>', anchor.index + anchor[0].length);
+    if (end < 0) throw new Error(`Unclosed catalog link: ${url.pathname}`);
+    const label = html.slice(anchor.index + anchor[0].length, end)
+      .replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"')
+      .replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+      .replace(/\s+/g, ' ').trim();
+    const separator = label.lastIndexOf(' — ');
+    const name = separator > 0 ? label.slice(0, separator).trim() : '';
+    const category = separator > 0 ? label.slice(separator + 3).trim() : '';
+    const id = match[1];
+    if (!name || name.length > 100 || /[<>{}@\r\n]/.test(name) || !CATEGORIES.has(category) || seen.has(id)) {
       throw new Error(`Incomplete, unsafe or duplicate catalog metadata: ${id}`);
     }
     seen.add(id);
-    return { id, name, category, url: `${ORIGIN}/blocks/${id}` };
-  }).sort((a, b) => a.id.localeCompare(b.id, 'en'));
+    catalog.push({ id, name, category, url: `${ORIGIN}/blocks/${id}` });
+  }
+  if (catalog.length === 0 || catalog.length > 1000) throw new Error('Catalog adapter found no credible metadata table');
+  return catalog.sort((a, b) => a.id.localeCompare(b.id, 'en'));
 }
 
 export async function fetchText(url, maxBytes = 5_000_000) {
@@ -74,7 +86,7 @@ export function createSnapshot(html, bundle, css, licenceHtml, assets, capturedA
       stylesheet: { url: assets.stylesheet, sha256: sha256(css) },
       licencePage: { url: `${ORIGIN}/licence`, sha256: sha256(licenceHtml) },
     },
-    catalog: extractCatalog(bundle),
+    catalog: extractCatalog(html),
   };
 }
 
