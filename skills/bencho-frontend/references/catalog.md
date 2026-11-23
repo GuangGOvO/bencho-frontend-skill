@@ -1,6 +1,6 @@
 # Bencho 组件索引
 
-来源：[bencho.dev](https://bencho.dev/)。快照：2026-11-02T03:02:24.183Z，共 153 项。分类来自公开目录；不是逐项人工测试声明。
+来源：[bencho.dev](https://bencho.dev/)。快照：2026-11-23T03:03:00.791Z，共 181 项。分类来自公开目录；不是逐项人工测试声明。
 
 | 组件 | 交互 | 原站 |
 | --- | --- | --- |
@@ -16,12 +16,13 @@
 | Avatar group | Hover | [打开](https://bencho.dev/blocks/avatar-group) |
 | Billing card | Press | [打开](https://bencho.dev/blocks/billing-card) |
 | Network graph | Hover | [打开](https://bencho.dev/blocks/blast-radius) |
-| Blocks loader | Loop | [打开](https://bencho.dev/blocks/blocks-loader) |
+| Blocks loader | Loading | [打开](https://bencho.dev/blocks/blocks-loader) |
 | Blueprint loader | Loading | [打开](https://bencho.dev/blocks/blueprint-loader) |
-| Bounce loader | Loop | [打开](https://bencho.dev/blocks/bounce-loader) |
+| Bounce loader | Loading | [打开](https://bencho.dev/blocks/bounce-loader) |
 | Budget slider | Drag | [打开](https://bencho.dev/blocks/budget-slider) |
 | Call island | Press | [打开](https://bencho.dev/blocks/call-island) |
 | Card fan | Press | [打开](https://bencho.dev/blocks/card-fan) |
+| Card stack | Hover | [打开](https://bencho.dev/blocks/card-stack) |
 | Card swap | Drag | [打开](https://bencho.dev/blocks/card-swap) |
 | Carousel | Swipe | [打开](https://bencho.dev/blocks/carousel) |
 | Checklist | Press | [打开](https://bencho.dev/blocks/checklist) |
@@ -31,44 +32,58 @@
 | Command bar | Type | [打开](https://bencho.dev/blocks/command) |
 | Confetti | Press | [打开](https://bencho.dev/blocks/confetti) |
 | Inline confirm | Press | [打开](https://bencho.dev/blocks/confirm) |
+| Confirm send | Press | [打开](https://bencho.dev/blocks/confirm-send) |
 | Integrations | Press | [打开](https://bencho.dev/blocks/connect-sources) |
 | Context meter | Hover | [打开](https://bencho.dev/blocks/context-meter) |
 | Copy field | Press | [打开](https://bencho.dev/blocks/copy-field) |
 | Country wheel | Drag | [打开](https://bencho.dev/blocks/country-wheel) |
 | Crumpled receipt | Drag | [打开](https://bencho.dev/blocks/crumple) |
 | Date reel | Swipe | [打开](https://bencho.dev/blocks/date-reel) |
+| Dice | Drag | [打开](https://bencho.dev/blocks/dice) |
 | Magnifying dock | Hover | [打开](https://bencho.dev/blocks/dock) |
 | Dot globe | Drag | [打开](https://bencho.dev/blocks/dot-globe) |
 | Dot loader | Loading | [打开](https://bencho.dev/blocks/dot-loader) |
 | Dot swarm | Hover | [打开](https://bencho.dev/blocks/dot-swarm) |
 | Dragging ball | Drag | [打开](https://bencho.dev/blocks/drag-ball) |
+| Dust delete | Press | [打开](https://bencho.dev/blocks/dust-delete) |
 | Dynamic island | Press | [打开](https://bencho.dev/blocks/dynamic-island) |
 | Edge light | Hover | [打开](https://bencho.dev/blocks/edge-light) |
 | Emoji reactions | Hover | [打开](https://bencho.dev/blocks/emoji-reactions) |
 | Escape button | Hover | [打开](https://bencho.dev/blocks/escape) |
+| Arc ring | Hover | [打开](https://bencho.dev/blocks/expenses) |
 | Eye tracker | Hover | [打开](https://bencho.dev/blocks/eye-tracker) |
 | Falling text | Hover | [打开](https://bencho.dev/blocks/falling-text) |
 | FAQ accordion | Press | [打开](https://bencho.dev/blocks/faq-accordion) |
+| FAQ frames | Press | [打开](https://bencho.dev/blocks/faq-frames) |
 | Feedback bar | Press | [打开](https://bencho.dev/blocks/feedback-bar) |
+| Flap board | Press | [打开](https://bencho.dev/blocks/flap-board) |
 | Flight island | Press | [打开](https://bencho.dev/blocks/flight-island) |
 | Foggy word | Hover | [打开](https://bencho.dev/blocks/foggy-word) |
 | Dropdown | Press | [打开](https://bencho.dev/blocks/fold-dropdown) |
 | Folder | Hover | [打开](https://bencho.dev/blocks/folder) |
 | Folding bill | Drag | [打开](https://bencho.dev/blocks/folding-bill) |
 | Form error | Type | [打开](https://bencho.dev/blocks/form-error) |
+| Format bar | Press | [打开](https://bencho.dev/blocks/format-bar) |
+| Score gauge | Drag | [打开](https://bencho.dev/blocks/gauge) |
 | Generate | Press | [打开](https://bencho.dev/blocks/generate) |
 | Genie effect | Press | [打开](https://bencho.dev/blocks/genie) |
 | Glass bubble | Drag | [打开](https://bencho.dev/blocks/glass-bubble) |
+| Liquid tooltip | Hover | [打开](https://bencho.dev/blocks/glide-tip) |
 | Gravity tags | Hover | [打开](https://bencho.dev/blocks/gravity-tags) |
 | Heart rate | Hover | [打开](https://bencho.dev/blocks/heart-rate) |
 | Heat map | Hover | [打开](https://bencho.dev/blocks/heat-word) |
+| Hold to delete | Press | [打开](https://bencho.dev/blocks/hold-delete) |
 | Hub diagram | Hover | [打开](https://bencho.dev/blocks/hub-diagram) |
+| Huddle | Press | [打开](https://bencho.dev/blocks/huddle) |
 | Wheel | Drag | [打开](https://bencho.dev/blocks/humidity) |
 | Icon bar | Select | [打开](https://bencho.dev/blocks/icon-bar) |
 | Image accordion | Hover | [打开](https://bencho.dev/blocks/image-accordion) |
 | Image compare | Drag | [打开](https://bencho.dev/blocks/image-compare) |
 | Image shimmer | Loading | [打开](https://bencho.dev/blocks/image-shimmer) |
+| Image trail | Hover | [打开](https://bencho.dev/blocks/image-trail) |
+| Income flow | Hover | [打开](https://bencho.dev/blocks/income-flow) |
 | Ink bloom | Press | [打开](https://bencho.dev/blocks/ink-bloom) |
+| Jelly tabs | Press | [打开](https://bencho.dev/blocks/jelly-tabs) |
 | Label input | Type | [打开](https://bencho.dev/blocks/label-input) |
 | Light | Hover | [打开](https://bencho.dev/blocks/light) |
 | Like | Press | [打开](https://bencho.dev/blocks/like) |
@@ -77,13 +92,15 @@
 | Reorder list | Drag | [打开](https://bencho.dev/blocks/liq-arrange) |
 | Create menu | Press | [打开](https://bencho.dev/blocks/liq-create) |
 | Liquid toggle | Press | [打开](https://bencho.dev/blocks/liq-toggle) |
+| AI Assistant | Press | [打开](https://bencho.dev/blocks/listen) |
 | Load cards | Press | [打开](https://bencho.dev/blocks/load-cards) |
 | Loading state | Loading | [打开](https://bencho.dev/blocks/loading-state) |
 | Magnetic select | Select | [打开](https://bencho.dev/blocks/magnet-select) |
 | Magnetic dots | Hover | [打开](https://bencho.dev/blocks/magnetic-dots) |
 | Magnetic letters | Hover | [打开](https://bencho.dev/blocks/magnetic-letters) |
+| Market chart | Hover | [打开](https://bencho.dev/blocks/market-chart) |
 | Metaballs | Hover | [打开](https://bencho.dev/blocks/metaballs) |
-| Morph loader | Loop | [打开](https://bencho.dev/blocks/morph-loader) |
+| Morph loader | Loading | [打开](https://bencho.dev/blocks/morph-loader) |
 | Music island | Press | [打开](https://bencho.dev/blocks/music-island) |
 | Odds | Press | [打开](https://bencho.dev/blocks/odds) |
 | One-time code | Type | [打开](https://bencho.dev/blocks/one-time-code) |
@@ -93,21 +110,26 @@
 | Page peel | Drag | [打开](https://bencho.dev/blocks/page-peel) |
 | Palette | Press | [打开](https://bencho.dev/blocks/palette) |
 | Particles | Hover | [打开](https://bencho.dev/blocks/particles) |
+| Password reveal | Press | [打开](https://bencho.dev/blocks/pass-reveal) |
 | Password strength | Type | [打开](https://bencho.dev/blocks/password-strength) |
+| Path panel | Drag | [打开](https://bencho.dev/blocks/path-panel) |
 | Pay button | Press | [打开](https://bencho.dev/blocks/pay-button) |
 | Peek rating | Hover | [打开](https://bencho.dev/blocks/peek-rating) |
 | Piano | Press | [打开](https://bencho.dev/blocks/piano) |
 | Assignees | Select | [打开](https://bencho.dev/blocks/picker) |
 | Picker wheel | Drag | [打开](https://bencho.dev/blocks/picker-wheel) |
 | Pill accordion | Press | [打开](https://bencho.dev/blocks/pill-accordion) |
-| Pixel loader | Loop | [打开](https://bencho.dev/blocks/pixel-loader) |
+| 3D bar chart | Hover | [打开](https://bencho.dev/blocks/pillars) |
+| Pixel loader | Loading | [打开](https://bencho.dev/blocks/pixel-loader) |
 | Price chart | Drag | [打开](https://bencho.dev/blocks/price-chart) |
 | Price flow | Press | [打开](https://bencho.dev/blocks/price-flow) |
 | Private balance | Press | [打开](https://bencho.dev/blocks/private-balance) |
 | Profile hover card | Hover | [打开](https://bencho.dev/blocks/profile-card) |
 | Progress ticks | Hover | [打开](https://bencho.dev/blocks/progress) |
+| Progress tracker | Press | [打开](https://bencho.dev/blocks/progress-tracker) |
 | Progressive blur | Hover | [打开](https://bencho.dev/blocks/progressive-blur) |
 | Pull to refresh | Drag | [打开](https://bencho.dev/blocks/pull) |
+| Race bars | Loading | [打开](https://bencho.dev/blocks/race-bars) |
 | Radial menu | Press | [打开](https://bencho.dev/blocks/radial) |
 | Radial pop-out | Hover | [打开](https://bencho.dev/blocks/radial-pop-out) |
 | Range | Drag | [打开](https://bencho.dev/blocks/range) |
@@ -115,6 +137,7 @@
 | Resize frame | Drag | [打开](https://bencho.dev/blocks/resize-frame) |
 | Rolling counter | Drag | [打开](https://bencho.dev/blocks/rolling-counter) |
 | Selection list | Select | [打开](https://bencho.dev/blocks/roster) |
+| Seat map | Press | [打开](https://bencho.dev/blocks/seat-map) |
 | Search | Press | [打开](https://bencho.dev/blocks/seek) |
 | Segment timer | Drag | [打开](https://bencho.dev/blocks/segment-timer) |
 | Selection actions | Press | [打开](https://bencho.dev/blocks/selection-actions) |
@@ -132,16 +155,20 @@
 | Split view | Drag | [打开](https://bencho.dev/blocks/split-view) |
 | Stacked bars | Hover | [打开](https://bencho.dev/blocks/stacked-bars) |
 | Standing calendar | Press | [打开](https://bencho.dev/blocks/standing-calendar) |
+| Status picker | Press | [打开](https://bencho.dev/blocks/status-picker) |
 | Step player | Press | [打开](https://bencho.dev/blocks/step-player) |
 | Drag stepper | Press | [打开](https://bencho.dev/blocks/stepper) |
+| Stories | Hover | [打开](https://bencho.dev/blocks/stories) |
 | Sweep button | Hover | [打开](https://bencho.dev/blocks/sweep-button) |
 | Swipe deck | Swipe | [打开](https://bencho.dev/blocks/swipe-deck) |
 | Tab bar | Press | [打开](https://bencho.dev/blocks/tab-bar) |
+| Tag input | Type | [打开](https://bencho.dev/blocks/tag-input) |
 | Tape | Drag | [打开](https://bencho.dev/blocks/tape) |
 | Text blur | Press | [打开](https://bencho.dev/blocks/text-blur) |
 | Text fade | Press | [打开](https://bencho.dev/blocks/text-fade) |
 | Text rise | Press | [打开](https://bencho.dev/blocks/text-rise) |
 | Thinking | Press | [打开](https://bencho.dev/blocks/thinking) |
+| Thinking loader | Loading | [打开](https://bencho.dev/blocks/thinking-loader) |
 | Ticket | Drag | [打开](https://bencho.dev/blocks/ticket) |
 | Tilt card | Hover | [打开](https://bencho.dev/blocks/tilt) |
 | Time scrubber | Slide | [打开](https://bencho.dev/blocks/time-scrubber) |
@@ -149,11 +176,12 @@
 | Notify | Press | [打开](https://bencho.dev/blocks/toasts) |
 | Todo tower | Press | [打开](https://bencho.dev/blocks/todo-tower) |
 | Canvas toolbar | Select | [打开](https://bencho.dev/blocks/toolbar) |
-| Trace loader | Loop | [打开](https://bencho.dev/blocks/trace-loader) |
+| Trace loader | Loading | [打开](https://bencho.dev/blocks/trace-loader) |
 | Tree view | Press | [打开](https://bencho.dev/blocks/tree-view) |
 | Upload dropzone | Drag | [打开](https://bencho.dev/blocks/upload-dropzone) |
 | Voice chat | Press | [打开](https://bencho.dev/blocks/voice-chat) |
 | Voice note | Press | [打开](https://bencho.dev/blocks/voice-note) |
 | Wake slider | Drag | [打开](https://bencho.dev/blocks/wake-slider) |
-| Wave loader | Loop | [打开](https://bencho.dev/blocks/wave-loader) |
+| Wave loader | Loading | [打开](https://bencho.dev/blocks/wave-loader) |
+| Audio trim | Drag | [打开](https://bencho.dev/blocks/wave-trim) |
 | World clock | Drag | [打开](https://bencho.dev/blocks/world-clock) |

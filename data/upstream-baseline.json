@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "capturedAt": "2026-11-02T03:02:24.183Z",
+  "capturedAt": "2026-11-23T03:03:00.791Z",
   "source": "https://bencho.dev/",
   "assets": {
     "script": {
-      "url": "https://bencho.dev/assets/index-BCgeGA30.js",
-      "sha256": "4a5bfc31bbbfee3c2feb2b5b56694f8d2e969e78802489cbebc773ba3959d611"
+      "url": "https://bencho.dev/assets/index-CNAHvTLc.js",
+      "sha256": "cea52b0a41889de716c3d91b89db6bbbacd8ad0e60343946045bc1a941ba64ef"
     },
     "stylesheet": {
-      "url": "https://bencho.dev/assets/index-BAkKYq6q.css",
-      "sha256": "912e23707cf68575e8dcbf6e4c10b15b846ef93d50d7fb363e237d326aef4a0f"
+      "url": "https://bencho.dev/assets/index-B_AFVDQs.css",
+      "sha256": "9c6a570f5b28e24138269e062dc8ddba6bc37966f1e5a73b00c4c9e4b476e69a"
     },
     "licencePage": {
       "url": "https://bencho.dev/licence",
-      "sha256": "953c367f3d23e46dffe97ea006a7b6a3a668732471d4fd144b1124ef9405f26d"
+      "sha256": "e33e6fe09655dd046fd1fbdecd824560e6f0645f749809363b2f76336c1e2607"
     }
   },
   "catalog": [
@@ -92,7 +92,7 @@
     {
       "id": "blocks-loader",
       "name": "Blocks loader",
-      "category": "Loop",
+      "category": "Loading",
       "url": "https://bencho.dev/blocks/blocks-loader"
     },
     {
@@ -104,7 +104,7 @@
     {
       "id": "bounce-loader",
       "name": "Bounce loader",
-      "category": "Loop",
+      "category": "Loading",
       "url": "https://bencho.dev/blocks/bounce-loader"
     },
     {
@@ -124,6 +124,12 @@
       "name": "Card fan",
       "category": "Press",
       "url": "https://bencho.dev/blocks/card-fan"
+    },
+    {
+      "id": "card-stack",
+      "name": "Card stack",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/card-stack"
     },
     {
       "id": "card-swap",
@@ -180,6 +186,12 @@
       "url": "https://bencho.dev/blocks/confirm"
     },
     {
+      "id": "confirm-send",
+      "name": "Confirm send",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/confirm-send"
+    },
+    {
       "id": "connect-sources",
       "name": "Integrations",
       "category": "Press",
@@ -216,6 +228,12 @@
       "url": "https://bencho.dev/blocks/date-reel"
     },
     {
+      "id": "dice",
+      "name": "Dice",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/dice"
+    },
+    {
       "id": "dock",
       "name": "Magnifying dock",
       "category": "Hover",
@@ -246,6 +264,12 @@
       "url": "https://bencho.dev/blocks/drag-ball"
     },
     {
+      "id": "dust-delete",
+      "name": "Dust delete",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/dust-delete"
+    },
+    {
       "id": "dynamic-island",
       "name": "Dynamic island",
       "category": "Press",
@@ -270,6 +294,12 @@
       "url": "https://bencho.dev/blocks/escape"
     },
     {
+      "id": "expenses",
+      "name": "Arc ring",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/expenses"
+    },
+    {
       "id": "eye-tracker",
       "name": "Eye tracker",
       "category": "Hover",
@@ -288,10 +318,22 @@
       "url": "https://bencho.dev/blocks/faq-accordion"
     },
     {
+      "id": "faq-frames",
+      "name": "FAQ frames",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/faq-frames"
+    },
+    {
       "id": "feedback-bar",
       "name": "Feedback bar",
       "category": "Press",
       "url": "https://bencho.dev/blocks/feedback-bar"
+    },
+    {
+      "id": "flap-board",
+      "name": "Flap board",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/flap-board"
     },
     {
       "id": "flight-island",
@@ -330,6 +372,18 @@
       "url": "https://bencho.dev/blocks/form-error"
     },
     {
+      "id": "format-bar",
+      "name": "Format bar",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/format-bar"
+    },
+    {
+      "id": "gauge",
+      "name": "Score gauge",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/gauge"
+    },
+    {
       "id": "generate",
       "name": "Generate",
       "category": "Press",
@@ -346,6 +400,12 @@
       "name": "Glass bubble",
       "category": "Drag",
       "url": "https://bencho.dev/blocks/glass-bubble"
+    },
+    {
+      "id": "glide-tip",
+      "name": "Liquid tooltip",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/glide-tip"
     },
     {
       "id": "gravity-tags",
@@ -366,10 +426,22 @@
       "url": "https://bencho.dev/blocks/heat-word"
     },
     {
+      "id": "hold-delete",
+      "name": "Hold to delete",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/hold-delete"
+    },
+    {
       "id": "hub-diagram",
       "name": "Hub diagram",
       "category": "Hover",
       "url": "https://bencho.dev/blocks/hub-diagram"
+    },
+    {
+      "id": "huddle",
+      "name": "Huddle",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/huddle"
     },
     {
       "id": "humidity",
@@ -402,10 +474,28 @@
       "url": "https://bencho.dev/blocks/image-shimmer"
     },
     {
+      "id": "image-trail",
+      "name": "Image trail",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/image-trail"
+    },
+    {
+      "id": "income-flow",
+      "name": "Income flow",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/income-flow"
+    },
+    {
       "id": "ink-bloom",
       "name": "Ink bloom",
       "category": "Press",
       "url": "https://bencho.dev/blocks/ink-bloom"
+    },
+    {
+      "id": "jelly-tabs",
+      "name": "Jelly tabs",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/jelly-tabs"
     },
     {
       "id": "label-input",
@@ -456,6 +546,12 @@
       "url": "https://bencho.dev/blocks/liq-toggle"
     },
     {
+      "id": "listen",
+      "name": "AI Assistant",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/listen"
+    },
+    {
       "id": "load-cards",
       "name": "Load cards",
       "category": "Press",
@@ -486,6 +582,12 @@
       "url": "https://bencho.dev/blocks/magnetic-letters"
     },
     {
+      "id": "market-chart",
+      "name": "Market chart",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/market-chart"
+    },
+    {
       "id": "metaballs",
       "name": "Metaballs",
       "category": "Hover",
@@ -494,7 +596,7 @@
     {
       "id": "morph-loader",
       "name": "Morph loader",
-      "category": "Loop",
+      "category": "Loading",
       "url": "https://bencho.dev/blocks/morph-loader"
     },
     {
@@ -552,10 +654,22 @@
       "url": "https://bencho.dev/blocks/particles"
     },
     {
+      "id": "pass-reveal",
+      "name": "Password reveal",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/pass-reveal"
+    },
+    {
       "id": "password-strength",
       "name": "Password strength",
       "category": "Type",
       "url": "https://bencho.dev/blocks/password-strength"
+    },
+    {
+      "id": "path-panel",
+      "name": "Path panel",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/path-panel"
     },
     {
       "id": "pay-button",
@@ -594,9 +708,15 @@
       "url": "https://bencho.dev/blocks/pill-accordion"
     },
     {
+      "id": "pillars",
+      "name": "3D bar chart",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/pillars"
+    },
+    {
       "id": "pixel-loader",
       "name": "Pixel loader",
-      "category": "Loop",
+      "category": "Loading",
       "url": "https://bencho.dev/blocks/pixel-loader"
     },
     {
@@ -630,6 +750,12 @@
       "url": "https://bencho.dev/blocks/progress"
     },
     {
+      "id": "progress-tracker",
+      "name": "Progress tracker",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/progress-tracker"
+    },
+    {
       "id": "progressive-blur",
       "name": "Progressive blur",
       "category": "Hover",
@@ -640,6 +766,12 @@
       "name": "Pull to refresh",
       "category": "Drag",
       "url": "https://bencho.dev/blocks/pull"
+    },
+    {
+      "id": "race-bars",
+      "name": "Race bars",
+      "category": "Loading",
+      "url": "https://bencho.dev/blocks/race-bars"
     },
     {
       "id": "radial",
@@ -682,6 +814,12 @@
       "name": "Selection list",
       "category": "Select",
       "url": "https://bencho.dev/blocks/roster"
+    },
+    {
+      "id": "seat-map",
+      "name": "Seat map",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/seat-map"
     },
     {
       "id": "seek",
@@ -786,6 +924,12 @@
       "url": "https://bencho.dev/blocks/standing-calendar"
     },
     {
+      "id": "status-picker",
+      "name": "Status picker",
+      "category": "Press",
+      "url": "https://bencho.dev/blocks/status-picker"
+    },
+    {
       "id": "step-player",
       "name": "Step player",
       "category": "Press",
@@ -796,6 +940,12 @@
       "name": "Drag stepper",
       "category": "Press",
       "url": "https://bencho.dev/blocks/stepper"
+    },
+    {
+      "id": "stories",
+      "name": "Stories",
+      "category": "Hover",
+      "url": "https://bencho.dev/blocks/stories"
     },
     {
       "id": "sweep-button",
@@ -814,6 +964,12 @@
       "name": "Tab bar",
       "category": "Press",
       "url": "https://bencho.dev/blocks/tab-bar"
+    },
+    {
+      "id": "tag-input",
+      "name": "Tag input",
+      "category": "Type",
+      "url": "https://bencho.dev/blocks/tag-input"
     },
     {
       "id": "tape",
@@ -844,6 +1000,12 @@
       "name": "Thinking",
       "category": "Press",
       "url": "https://bencho.dev/blocks/thinking"
+    },
+    {
+      "id": "thinking-loader",
+      "name": "Thinking loader",
+      "category": "Loading",
+      "url": "https://bencho.dev/blocks/thinking-loader"
     },
     {
       "id": "ticket",
@@ -890,7 +1052,7 @@
     {
       "id": "trace-loader",
       "name": "Trace loader",
-      "category": "Loop",
+      "category": "Loading",
       "url": "https://bencho.dev/blocks/trace-loader"
     },
     {
@@ -926,8 +1088,14 @@
     {
       "id": "wave-loader",
       "name": "Wave loader",
-      "category": "Loop",
+      "category": "Loading",
       "url": "https://bencho.dev/blocks/wave-loader"
+    },
+    {
+      "id": "wave-trim",
+      "name": "Audio trim",
+      "category": "Drag",
+      "url": "https://bencho.dev/blocks/wave-trim"
     },
     {
       "id": "world-clock",
